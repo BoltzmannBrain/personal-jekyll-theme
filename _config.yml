@@ -13,6 +13,7 @@ url: "https://boltzmannbrain.github.io/"
 # NB! Without this *nothing* will work, because it's used in every path :)
 
 # baseurl: /lav-page
+repository: BoltzmannBrain/boltzmannbrain.github.io
 
 # Google tracking id to track your visitors
 
