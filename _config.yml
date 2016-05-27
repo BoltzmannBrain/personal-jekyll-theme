@@ -34,13 +34,13 @@ author: "Alexander Lavin"
 title: "{ Alexander Lavin }"
 description: "Personal website of Alexander Lavin; portfolio of projects; blogging on AI, tech, and random thoughts."
 keywords: "Lavin, AI"
-favicon: "/img/poop.ico"
+favicon: "/img/pokeball.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/poop_bw.ico"
+black-favicon: False
 
 background-img: "../img/intro-bg.png"
 
@@ -59,7 +59,7 @@ lines: # You can add HTML Tags in the Text
   # - text: "Hello world!"
   - text: "Under construction... check back soon!"
 
-me-img: "/img/pokeball.png"
+me-img: "/img/8bit_linkedin.png"
 
 ##############################
 # Color the browser elements #
@@ -110,12 +110,18 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "August 2013 - Today"
-    description: "Coding!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "November 1989 - August 2013"
-    description: "Before Coding"
+  - image: "/img/timeline/dojocat.jpg"
+    date: "2014+"
+    description: "AI ninja in training"
+  - image: "/img/timeline/robotocat.png"
+    date: "2013-2014"
+    description: "Carnegie Mellon"
+  - image: "/img/timeline/octonaut.jpg"
+    date: "2008-2012"
+    description: "Cornell mechanical & aero engineering"
+  - image: "/img/timeline/welcometocat.jpg"
+    date: "November 1989"
+    description: "Begin"
 
 # First image of the Timeline
 
@@ -136,7 +142,7 @@ email: "alexdlavin@gmail.com"
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: "Opinions are open source, feel free to fork them."
-author_blurb_image: "/img/dojocat.jpg"
+author_blurb_image: "/img/spidertocat.jpg"
 
 ##################
 # Social Buttons #
