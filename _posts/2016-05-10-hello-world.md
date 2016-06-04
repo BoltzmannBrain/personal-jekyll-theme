@@ -5,6 +5,4 @@ title: Hello world!
 category: Misc.
 tags: [ 'misc']
 ---
-Hello world! 
-
 This is my new website. Check back soon for blog posts and my portfolio...
