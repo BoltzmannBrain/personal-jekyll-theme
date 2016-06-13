@@ -33,7 +33,7 @@ lang: "en"
 author: "Alexander Lavin"
 title: "{ Alexander Lavin }"
 description: "Personal website of Alexander Lavin; portfolio of projects; blogging on AI, tech, and random thoughts."
-keywords: "Lavin, AI"
+keywords: "Lavin, artifical intelligence, machine learning, Numenta"
 favicon: "/img/pokeball.ico"
 
 ################
@@ -42,7 +42,8 @@ favicon: "/img/pokeball.ico"
 
 black-favicon: False
 
-background-img: "../img/intro-bg.png"
+# background-img: "../img/intro-bg.png"
+background-img: "../img/temp_ted_background.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -142,7 +143,7 @@ email: "alexdlavin@gmail.com"
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: "Opinions are open source, feel free to fork them."
-author_blurb_image: "/img/spidertocat.jpg"
+# author_blurb_image: "/img/spidertocat.jpg"
 
 ##################
 # Social Buttons #
@@ -170,7 +171,7 @@ social:
 
 pages_list:
   About: 'about'
-  # Portfolio: 'portfolio
+  # Portfolio: 'portfolio'
   Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
