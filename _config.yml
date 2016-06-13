@@ -43,7 +43,7 @@ favicon: "/img/pokeball.ico"
 black-favicon: False
 
 # background-img: "../img/intro-bg.png"
-background-img: "../img/temp_ted_background.jpg"
+background-img: "../img/tedxcornelltech_02.jpg"
 
 ##############################
 # Dynamic Text on the Header #
