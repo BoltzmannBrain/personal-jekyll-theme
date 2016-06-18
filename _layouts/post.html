@@ -6,33 +6,31 @@
 
   {% include head.html %}
 
-  <body>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     {% include navigation.html %}
 
+
+    <!-- <header class="bg-holder post-page {% if page.color %}bg-{{ page.color }}{% endif %}" style="{% if page.cover %}background:url({{page.cover}}) no-repeat center center; background-size: cover{% endif %}"> -->
+    <!-- {% if page.cover %}<div class="img-overlay"></div>{% endif %} -->
+    <!-- </header> -->
     <section id="post" class="container content-section text-center">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-
-          {% include swipe-instructions.html %}
+        <div class="col-lg-8 col-lg-offset-2">
 
           <h1><strong>{{ page.title }}</strong></h1>
-          <h4>
-            <strong>{{ page.date | date_to_string }}</strong>
-            <small>
-              . category:
-              <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}.html">
-                {{ page.category }}
-              </a>.
-              <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
-              <br />
-              {% for tag in page.tags %}
-                <a class="tag" href="{{site.baseurl}}/tags/{{tag}}.html">#{{ tag }}</a>
-              {% endfor %}
+          <h4><strong>{{ page.date | date_to_string }}</strong>
+            <small> . {{ page.category }} . <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
+            {% for tag in page.tags %}
+              <a href="{{site.baseurl}}/tags/{{tag}}.html">#{{ tag }}</a>
+            {% endfor %}
             </small>
           </h4>
 
-          {{ page.content | markdownify }}
+          <!-- {{ page.content | markdownify }} -->
+          <div class="post-content">
+            {{ content }}
+          </div>
 
           {% include share.html %}
 
@@ -46,7 +44,7 @@
           {% if site.author_blurb %}
           <div class="author row">
             <!-- <img class="col-xs-4 col-sm-3 col-md-2" src="{{site.baseurl}}{{site.author_blurb_image}}" alt="Me" /> -->
-            <p class="col-xs-8 col-sm-9 col-md-10">
+            <p class="col-md-10 col-md-offset-1 text-center">
               {{ site.author_blurb }}
             </p>
           </div>
