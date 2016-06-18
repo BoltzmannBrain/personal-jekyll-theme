@@ -87,7 +87,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-post-preview-words: 96
+post-preview-words: 42
 
 paginate: 5
 
@@ -102,7 +102,7 @@ pinterest-share: False
 pocket-share: False
 vkontakte-share: False
 
-disqus-shortname: "alexander_lavin"
+disqus-shortname: "boltzmannbrainblog"
 
 syntax-highlight: True
 
@@ -142,8 +142,9 @@ email: "alexdlavin@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Opinions are open source, feel free to fork them."
-# author_blurb_image: "/img/spidertocat.jpg"
+# author_blurb: "Opinions are open source, feel free to fork them."
+author_blurb: "\"Everything not saved will be lost.\"  - Nintendo quit screen message"
+# author_blurb_image: "/img/linkedin.png"
 
 ##################
 # Social Buttons #
