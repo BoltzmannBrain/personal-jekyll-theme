@@ -42,5 +42,3 @@ ML is building software systems that aim to improve with experience. ML algorith
 **8. What’s in store for Numenta? What’s in the future?**
 
 Although we’ve made a lot of progress, there’s still work to do. We’re building out the core theory and testing the algorithms in experiments. It’s not an easy task to program the algorithms of the neocortex. We can’t exactly put a release date on it, but we’re confident that HTM will make significant contributions to both the neuroscience and AI fields.
-
-***Intro:** Alex Lavin is a Software Engineer and Researcher at Numenta, a machine intelligence company tackling what is arguably the most important scientific challenge of all time: reverse engineering the neocortex. Alex's focus is in natural language processing, or developing algorithms that enable computers to process and understand human language. Alex studied mechanical and aerospace engineering at Cornell, and robotics at Carnegie Mellon. He was recently selected to the Forbes 30 Under 30 List for Science.*
