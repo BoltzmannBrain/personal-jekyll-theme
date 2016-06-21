@@ -65,7 +65,7 @@ me-img: "/img/8bit_linkedin.png"
 ##############################
 # Color the browser elements #
 ##############################
-color-browser: "#000000"
+color-browser: "#f9f9f9"
 apple-status-bar-style: "black"
 
 ################
