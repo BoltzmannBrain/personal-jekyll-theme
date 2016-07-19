@@ -276,6 +276,10 @@ h2.section-title {
     font-weight: 600;
     font-size: 1.2rem;
 }
+.project_name {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
 
 .company::before,
 .institution::before,
@@ -681,7 +685,7 @@ ul.courses li:hover {
 	<body>
 		<div id="resume">
 				<header id="header" class="clear">
-						<img class="picture" src="img/dojocat.jpg" alt="Alexander Lavin"/>
+						<img class="picture" src="img/linkedin.png" alt="Alexander Lavin"/>
 						<div class="middle">
 							<h1 class="name">Alexander Lavin</h1>
 							<h2 class="label">AI, ML, SW</h2>
@@ -737,7 +741,7 @@ ul.courses li:hover {
 
 					<section class="section main-summary">
 						<section>
-							<div><p>I’m a software engineer specializing in artificial intelligence and machine learning, with a background in computational mechanics and spacecraft engineering.</p></div>
+							<div><p>I’m a software engineer specializing in artificial intelligence and machine learning, with a background in computational mechanics and spacecraft engineering. I'm data driven, passionate about learning, and strive to build a better world with technology.</p></div>
 						</section>
 					</section>
 
@@ -747,6 +751,7 @@ ul.courses li:hover {
 						<h2 class='section-title'>Work Experience</h2>
 					</header>
 					<section id="work">
+
 								<header>
 									<span class="space-left">
 											<span class="fa fa-caret-down"></span>
@@ -773,14 +778,13 @@ ul.courses li:hover {
                   </span>
 								<div class="item display" style="opacity:1">
 									<div class="summary">
-										<p><p>We're building machine intelligence by reverse-engineering the neocortex. Our technology is Hierarchical Temporal Memory (HTM): a theory of cortex, implemented in SW for ML applications. My main role is prototyping algorithms; building from raw theory and math into production quality code.</p></p>
+										<p><p>We're building machine intelligence by reverse-engineering the neocortex. My main role is developing algorithms from raw theory into production quality code.</p></p>
 									</div>
 									<ul class="highlights">
-											<li>Developing algorithms for natural language processing (NLP), building codebase (and REST API) from scratch</li>
-											<li>Investigating and implementing algorithms to compare with HTM; e.g., deep learning (LSTM), traditional time-series methods (ARIMA), word embeddings (word2vec)</li>
-											<li>Created and manage open-source <a href="https://github.com/numenta/NAB" target="_blank">Numenta Anomaly Benchmark</a></li>
+											<li>Experimenting with algorithms for natural language processing (NLP), and managing the development of a document classification application</li>
+											<li>Investigating and implementing algorithms to compare with HTM -- e.g., deep learning (LSTM), traditional time-series methods (ARIMA), word embeddings (word2vec) -- for sequence prediction, classification, and anomaly detection</li>
+											<li>Created and manage the open-source <a href="https://github.com/numenta/NAB" target="_blank">Numenta Anomaly Benchmark</a></li>
 											<li>Helped architect CI pipelines for using Docker</li>
-											<li></li>
 											<li>Numerous public speaking engagements at conferences, meetups, and workshops</li>
 											<li>Key role in all publishing, including writing chapters for our textbook <a href="http://numenta.com/biological-and-machine-intelligence/" target="_blank">"BaMI"</a></li>
 									</ul>
@@ -804,6 +808,9 @@ ul.courses li:hover {
 									<div class="summary">
 										<p><p>Applied new approach to designing a re-entry system for on-demand return of scientific payloads from the International Space Station.</p></p>
 									</div>
+                  <ul class="highlights">
+                      <li><a href="https://drive.google.com/file/d/0B9Kuy1Ipwc3wb3JueXkyMS13eU0/view?usp=sharing" target="_blank">NASA Ames poster session</a></li>
+                  </ul>
 							</div>
 
 								<header>
@@ -842,9 +849,13 @@ ul.courses li:hover {
 								</header>
 								<div class="item display none" style="opacity:0">
 									<div class="summary">
-										<p><p>Investigated nitrous oxide in hybrid propulsion engines, performing and analyzing rocket engine firing tests.</p></p>
+										<p><p>Designed experiments and testbed to investigate the use of nitrous oxide in hybrid propulsion engines. Ran rocket engine firing tests and analyzed results across a variety of performance metrics.</p></p>
 									</div>
+                  <ul class="highlights">
+                      <li><a href="https://drive.google.com/file/d/0B9Kuy1Ipwc3wZ25GYlFndUxzR28/view?usp=sharing" target="_blank">"Rocket Performance Characteristics Using Hybrid Propulsion Systems of Plexiglas and Paraffin with Nitrous Oxide"</a></li>
+                  </ul>
 							</div>
+
 					</section>
 				</section>
 
@@ -853,8 +864,45 @@ ul.courses li:hover {
 					<header>
 						<h2 class='section-title'>Education</h2>
 					</header>
-
 					<section id="education">
+
+              <header class="clear">
+                <span class="space-left">
+                    <span class="fa fa-caret-right"></span>
+                </span>
+                <div class="header-left">
+                    <div class="studyType">
+                      Master of
+                    </div>
+                    <div class="area">
+                      Engineering Management
+                    </div>
+                    <div class="institution">
+                      Duke University
+                    </div>
+                </div>
+                <div class="date">
+                  <span class="startDate">
+                    2013
+                  </span>
+                  <span class="endDate">
+                    - 2016 (expected)
+                  </span>
+                </div>
+              </header>
+                <ul class="courses">
+                    <li>software development management</li>
+                    <li>commercializing technology innovation</li>
+                </ul>
+                <div class="item display none" style="opacity:0">
+                  <div class='gpa'>
+                    <strong> GPA:</strong> <span>3.9</span>
+                  </div>
+                  <ul class="highlights">
+                    <li>Concentration in Technology Innovation</li>
+                  </ul>
+              </div>
+
 							<header class="clear">
 								<span class="space-left">
 										<span class="fa fa-caret-down"></span>
@@ -891,44 +939,7 @@ ul.courses li:hover {
 									</div>
                   <ul class="highlights">
                     <li>Google Lunar XPrize team <a href="http://lunar.xprize.org/teams/astrobotic" target="_blank">Astrobotic</a></li>
-                    <li>Research in collaboration with <a href="https://www.blueorigin.com/" target="_blank">Blue Origin</a>, in <a href="http://www.andrew.cmu.edu/user/shimada/" target="_blank">Computational Engineering &amp; Robotics Lab</a></li>
-                  </ul>
-							</div>
-
-							<header class="clear">
-								<span class="space-left">
-										<span class="fa fa-caret-right"></span>
-								</span>
-								<div class="header-left">
-										<div class="studyType">
-											Master of
-										</div>
-										<div class="area">
-											Engineering Management
-										</div>
-										<div class="institution">
-											Duke University
-										</div>
-								</div>
-								<div class="date">
-									<span class="startDate">
-										2013
-									</span>
-									<span class="endDate">
-										- 2016
-									</span>
-								</div>
-							</header>
-                <ul class="courses">
-                    <li>software development management</li>
-                    <li>commercializing technology innovation</li>
-                </ul>
-								<div class="item display none" style="opacity:0">
-									<div class='gpa'>
-										<strong> GPA:</strong> <span>3.9</span>
-									</div>
-                  <ul class="highlights">
-                    <li>Concentration in Technology Innovation</li>
+                    <li>Research on FEA optimization algoritms, in collaboration with <a href="https://www.blueorigin.com/" target="_blank">Blue Origin</a>, in <a href="http://www.andrew.cmu.edu/user/shimada/" target="_blank">Computational Engineering &amp; Robotics Lab</a></li>
                   </ul>
 							</div>
 
@@ -977,7 +988,7 @@ ul.courses li:hover {
 
         <section class="section margin1">
           <header>
-            <h2 class='section-title'>Skills</h2>
+            <h2 class='section-title'>Technical Skills</h2>
           </header>
           <section id="skills">
 
@@ -1002,7 +1013,7 @@ ul.courses li:hover {
 
             <div class="item">
               <h3 class="name">
-                Data Sci and ML
+                Data Sci and ML Tools
               </h3>
               <div class="level advanced">
                 <em>Advanced</em>
@@ -1014,6 +1025,8 @@ ul.courses li:hover {
                 <li>tensorflow</li>
                 <li>pandas</li>
                 <li>numpy</li>
+                <li>plotly</li>
+                <li>nltk</li>
               </ul>
             </div>
 
@@ -1045,22 +1058,8 @@ ul.courses li:hover {
                 <li>GitHub API</li>
                 <li>AWS</li>
                 <li>continuous integration</li>
-                <li>web apps (Flask)</li>
-              </ul>
-            </div>
-
-            <div class="item">
-              <h3 class="name">
-                Etc.
-              </h3>
-<!--               <div class="level intermediate">
-                <em>Intermediate</em>
-                <div class="bar"></div>
-              </div> -->
-              <ul class="keywords">
-                <li>public speaking</li>
-                <li>systems engineering</li>
-                <li>project management</li>
+                <li>web apps</li>
+                <li>html</li>
               </ul>
             </div>
 
@@ -1078,7 +1077,7 @@ ul.courses li:hover {
 									<!-- <span class="fa fa-caret-down"></span> -->
 							</span>
 							<div class="header-left">
-									<div class="title">
+									<div class="project_name">
                     <a href="http://www.forbes.com/sites/alexknapp/2016/01/04/30-under-30-in-science-%20exploring-new-worlds-in-the-stars-and-in-our-cells/#732a25964f2f" target="_blank">Forbes 30 Under 30 in Science</a>
 									</div>
 							</div>
@@ -1093,7 +1092,7 @@ ul.courses li:hover {
 									<!-- <span class="fa fa-caret-right"></span> -->
 							</span>
 							<div class="header-left">
-									<div class="title">
+									<div class="project_name">
 										Cornell U., College of Engineering Dean&#x27;s List
 									</div>
 							</div>
@@ -1108,7 +1107,7 @@ ul.courses li:hover {
 									<!-- <span class="fa fa-caret-right"></span> -->
 							</span>
 							<div class="header-left">
-									<div class="title">
+									<div class="project_name">
 										Cornell U., Engineering Global Fellow
 									</div>
 							</div>
@@ -1122,6 +1121,124 @@ ul.courses li:hover {
 				</section>
 
 
+        <section class="section">
+          <header>
+            <h2 class='section-title'>Add'l Projects</h2>
+          </header>
+          <section id="work">
+
+                <header>
+                  <span class="space-left">
+                      <span class="fa fa-caret-down"></span>
+                  </span>
+                  <div class="project_name">
+                    Mobile Robotics Path Planning Algorithms
+                  </div>
+                  <div class="date">
+                    2014
+                  </div>
+                </header>
+<!--                   <span class="website">
+                      <a href="numenta.com/learn" target="_blank">numenta.com/learn</a>
+                      &#8226;
+                      <a href="http://numenta.org/" target="_blank">numenta.org</a>
+                  </span> -->
+                <div class="item display" style="opacity:1">
+                  <div class="summary">
+                    <p><p>Integrated Pareto-optimality into traditional A* and D* search algorithms to provide improved methods for multi-objective path planning. I showed strong improvements over traditional methods across all optimization metrics in simulated environments, including in a Mars terrain case study.</p></p>
+                  </div>
+                  <ul class="highlights">
+                      <li>D*-PO algorithm:<a href="http://arxiv.org/abs/1511.00787" target="_blank">"A Pareto Optimal D* Search Algorithm for Multiobjective Path Planning"</a></li>
+                      <li>A*-PO algorithm:<a href="http://arxiv.org/abs/1505.05947" target="_blank">"A Pareto Front-Based Multiobjective Path Planning Algorithm"</a></li>
+                      <!-- <li>A*-PO paper and <a href="https://drive.google.com/file/d/0B9Kuy1Ipwc3wMElfZko3MGc5a0E/view?usp=sharing" target="_blank">poster presentation</a> at <a href="http://www.iros2014.org/" target="_blank">2014 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</a>.</li> -->
+                      <li>A*-PO paper and <a href="https://drive.google.com/file/d/0B9Kuy1Ipwc3wMElfZko3MGc5a0E/view?usp=sharing" target="_blank">poster presentation</a> at 2014 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</li>
+                      <li><a href="https://github.com/BoltzmannBrain/Robotics-Toolbox" target="_blank">Code</a> added to (future version of) <a href="http://www.petercorke.com/Toolbox_software.html" target="_blank">MATLAB Robotics Toolbox (RTB)</a></li>
+                  </ul>
+              </div>
+
+                <header>
+                  <span class="space-left">
+                      <span class="fa fa-caret-right"></span>
+                  </span>
+                  <div class="project_name">
+                    Google Lunar XPrize
+                  </div>
+                  <div class="date">
+                    2013-2014
+                  </div>
+                </header>
+                  <span class="website">
+                      <a href="http://lunar.xprize.org/teams/astrobotic" target="_blank">GLXP team Astrobotic</a>
+<!--                       &#8226;
+                      <a href="http://numenta.org/" target="_blank">numenta.org</a> -->
+                  </span>
+                <div class="item display none" style="opacity:1">
+                  <div class="summary">
+                    <p><p>Lunar rover project manager and lead of systems engineering.</p></p>
+                  </div>
+                  <ul class="highlights">
+                      <li>Led the lunar rover team from scratch to design, build, and V&amp;V testing first two prototype rovers</li>
+                      <li><a href="http://arxiv.org/abs/1511.00195" target="_blank">"Optimized Mission Planning for Planetary Exploration Rovers"</a>: Final project for AI&amp;ML course, including a simualted lunar mission for the GLXP team.
+                      <li>Rover material and payload design, analysis, and test for thermal, radiation, and vacuum requirements</li>
+                      <li><a href="http://lunar.xprize.org/press-release/private-moon-race-heats-five-google-lunar-xprize-teams-take-home-525-million-key" target="_blank">We won 3/3 Milestone Prizes!</a></li>
+                  </ul>
+              </div>
+
+                <header>
+                  <span class="space-left">
+                      <span class="fa fa-caret-right"></span>
+                  </span>
+                  <div class="project_name">
+                    Kaggle Higgs Boson Machine Learning Challenge
+                  </div>
+                  <div class="date">
+                    2014
+                  </div>
+                </header>
+                  <span class="website">
+                      <a href="https://www.kaggle.com/c/higgs-boson" target="_blank">Higgs Challenge</a>
+<!--                       &#8226;
+                      <a href="http://numenta.org/" target="_blank">numenta.org</a> -->
+                  </span>
+                <div class="item display none" style="opacity:1">
+                  <div class="summary">
+                    <p><p>For the task of classifying particle collision events as either signal (Higgs boson decay) or background noise, I implemented a gradient boosted classifier that performed only 4.63% behind the winning score, and almost 2x the score of the baseline naive Bayes model.</p></p>
+                  </div>
+                  <ul class="highlights">
+                      <li><a href="https://drive.google.com/file/d/0B9Kuy1Ipwc3wejBtN01zMmZHTW8/view?usp=sharing" target="_blank">summary poster</a></li>
+                  </ul>
+              </div>
+
+                <header>
+                  <span class="space-left">
+                      <span class="fa fa-caret-right"></span>
+                  </span>
+                  <div class="project_name">
+                    Carnegie Mellon Master's Thesis
+                  </div>
+                  <div class="date">
+                    2013-2014
+                  </div>
+                </header>
+<!--                   <span class="website">
+                      <a href="http://lunar.xprize.org/teams/astrobotic" target="_blank">GLXP team Astrobotic</a>
+                      &#8226;
+                      <a href="http://numenta.org/" target="_blank">numenta.org</a>
+                  </span>
+ -->                <div class="item display none" style="opacity:1">
+                  <div class="summary">
+                    <p><p>"Finite Element-based Structural Optimization of Large System Models Under Buckling Constraints"</p></p>
+                  </div>
+                  <ul class="highlights">
+                      <li>Identified the core issues with applying standard optimization methods to the problem, and wrote a new algorithm to address convergence issues and computational efficiency</li>
+                      <li><a href="http://arxiv.org/abs/1602.04556" target="_blank">arXiv paper</a> and <a href="https://drive.google.com/open?id=0B9Kuy1Ipwc3wUjZ5dGtqUkdFdG8" target="_blank">thesis presentation</a></li>
+                  </ul>
+              </div>
+
+          </section>
+        </section>
+
+
 				<section class="section">
 					<header>
 						<h2 class='section-title'>Publications</h2>
@@ -1130,7 +1247,7 @@ ul.courses li:hover {
 
               <header class="clear">
                 <span class="space-left">
-                  <span class="fa fa-caret-right"></span>
+                  <span class="fa fa-caret-down"></span>
                 </span>
                 <div class="header-left">
                     <span class="pub_name">
@@ -1141,7 +1258,7 @@ ul.courses li:hover {
                     (in-progress)
                   </span>
               </header>
-                <div class="item display none" style="opacity:1">
+                <div class="item display" style="opacity:1">
                 <div class="summary">
                   <p><p>In-progress journal paper for Neurocomputing</p></p>
                 </div>
@@ -1181,7 +1298,7 @@ ul.courses li:hover {
               </header>
                 <div class="item display none" style="opacity:1">
                 <div class="summary">
-                  <p><p>I'm working to derive an objective function for HTM by describing the algorithms in an information theory framework, where HTM models optimize themselves by minimizing free energy; publication target TBD.</p></p>
+                  <p><p>I'm working to derive an objective function for Hierarchical Temporal Memory (HTM) by describing the algorithms in an information theory framework, where HTM models optimize themselves by minimizing free energy; publication target TBD.</p></p>
                 </div>
               </div>
 
@@ -1206,7 +1323,7 @@ ul.courses li:hover {
 								</div>
 							</div>
 
-							<header class="clear">
+<!-- 							<header class="clear">
 								<span class="space-left">
 									<span class="fa fa-caret-right"></span>
 								</span>
@@ -1216,9 +1333,9 @@ ul.courses li:hover {
 												<a href="http://arxiv.org/abs/1511.00787" target="_blank">"A Pareto Optimal D* Search Algorithm for Multiobjective Path Planning"</a>
 											</span>
 										</span>
-<!-- 										<span class="publisher">
+										<span class="publisher">
 											in arXiv
-										</span> -->
+										</span>
 								</div>
 									<span class="date">
 										2015
@@ -1229,8 +1346,8 @@ ul.courses li:hover {
                     <p><p>Follow-up work on my previous mobile robot path planning algorithm A*-PO, published to arXiv</p></p>
                   </div>
 							</div>
-
-              <header class="clear">
+ -->
+<!--               <header class="clear">
                 <span class="space-left">
                   <span class="fa fa-caret-right"></span>
                 </span>
@@ -1240,9 +1357,6 @@ ul.courses li:hover {
                         <a href="http://arxiv.org/abs/1511.00195" target="_blank">"Optimized Mission Planning for Planetary Exploration Rovers"</a>
                       </span>
                     </span>
-<!--                    <span class="publisher">
-                      in arXiv
-                    </span> -->
                 </div>
                   <span class="date">
                     2015
@@ -1252,7 +1366,7 @@ ul.courses li:hover {
                   <div class="summary">
                     <p><p>Final project for AI&amp;ML course at CMU, published to arXiv</p></p>
                   </div>
-              </div>
+              </div> -->
 
 							<header class="clear">
 								<span class="space-left">
@@ -1278,7 +1392,7 @@ ul.courses li:hover {
                   </div>
 							</div>
 
-							<header class="clear">
+<!-- 							<header class="clear">
 								<span class="space-left">
 									<span class="fa fa-caret-right"></span>
 								</span>
@@ -1288,9 +1402,9 @@ ul.courses li:hover {
 												<a href="http://arxiv.org/abs/1505.05947" target="_blank">"A Pareto Front-Based Multiobjective Path Planning Algorithm"</a>
 											</span>
 										</span>
-<!-- 										<span class="publisher">
+										<span class="publisher">
 											in IROS
-										</span> -->
+										</span>
 								</div>
 									<span class="date">
 										2014
@@ -1301,7 +1415,7 @@ ul.courses li:hover {
                     <p><p>Paper and poster presentation at <a href="http://www.iros2014.org/" target="_blank">2014 IEEE/RSJ International Conference on Intelligent Robots and Systems</a></p></p>
                   </div>
               </div>
-
+ -->
 							<header class="clear">
 								<span class="space-left">
 									<span class="fa fa-caret-right"></span>
@@ -1337,18 +1451,37 @@ ul.courses li:hover {
 					<section id="interests">
 							<div class="item">
 									<h3 class="name">
-										Google Lunar XPrize, team Astrobotic
+										Reading
 									</h3>
 									<ul class="keywords">
-											<li>spacetime and string theory</li>
-											<li>Heinlein, Martin</li>
+											<li>Heinlein</li>
+                      <li>Game of Thrones</li>
+                      <li>spacetime and string theory</li>
+                      <li>philosophy of physics</li>
+                      <li>Dawkins</li>
 									</ul>
 							</div>
 							<div class="item">
 									<h3 class="name">
-										Mobile Robotics Path Planning Algorithms
+										Health &amp; fitness
 									</h3>
+                  <ul class="keywords">
+                      <li>half marathons</li>
+                      <li>yoga</li>
+                      <li>paleo-ish</li>
+                      <li>meditation</li>
+                  </ul>
 							</div>
+<!--               <div class="item">
+                  <h3 class="name">
+                    Music
+                  </h3>
+                  <ul class="keywords">
+                      <li>live shows</li>
+                      <li>festivals</li>
+                      <li>not country</li>
+                  </ul>
+              </div> -->
 					</section>
 				</section>
 

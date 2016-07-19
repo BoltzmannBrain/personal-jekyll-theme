@@ -173,9 +173,10 @@ social:
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  Portfolio: 'portfolio'
+  # Portfolio: 'portfolio'
   Timeline: 'timeline'
   Contact: 'contact'
+  # Resume: 'resume'
 
 # Exclusion list from the generated _site
 
