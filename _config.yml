@@ -33,7 +33,7 @@ lang: "en"
 author: "Alexander Lavin"
 title: "{ Alexander Lavin }"
 description: "Personal website of Alexander Lavin; portfolio of projects; blogging on AI, tech, and random thoughts."
-keywords: "Lavin, artifical intelligence, machine learning, Numenta"
+keywords: "Lavin, artifical intelligence, machine learning, Numenta, Vicarious"
 favicon: "/img/level_up.ico"
 
 ################
@@ -113,7 +113,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/dojocat.jpg"
     date: "2014+"
-    description: "AI ninja in training, currently building machine intelligence with <a href='http://www.numenta.com' target='_blank'>Numenta</a>"
+    description: "AI ninja in training, currently with <a href='http://www.vicarious.com/' target='_blank'>Vicarious</a>, previously with <a href='http://www.numenta.com' target='_blank'>Numenta</a>"
   - image: "/img/timeline/robotocat.png"
     date: "2013-2014"
     description: "Carnegie Mellon, studied computational mechanics and worked on a <a href='http://lunar.xprize.org/teams/astrobotic' target='_blank'>lunar rover</a>"
