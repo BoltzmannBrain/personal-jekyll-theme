@@ -57,9 +57,11 @@ type-speed: 10
 start-delay: 200
 delete-delay: 2500
 lines: # You can add HTML Tags in the Text
-  - text: "Research engineer at Vicarious..."
+  # - text: "Research engineer at Vicarious..."
+  - text: "Brains and bits..."
   # - text: "Building machine intelligence from neuroscience"
-  - text: "... bringing insights from the brain to AI."
+  - text: "... bringing insights from neuroscience to AI."
+  # - text: "... bringing insights from the brain to AI."
   # - text: "Check back soon for my portfolio :)"
 
 me-img: "/img/8bit_linkedin.png"
