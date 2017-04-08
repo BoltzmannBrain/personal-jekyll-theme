@@ -124,9 +124,9 @@ events:
   - image: "/img/timeline/octonaut.jpg"
     date: "2008-2012"
     description: "Cornell University, studied mechanical & aero engineering, with <a href='http://www.spacecraftresearch.com/flux/flux_overview.html' target='_blank'> cubesat research</a>"
-  - image: "/img/timeline/welcometocat.jpg"
-    date: "November 1989"
-    description: "Hello world!"
+  # - image: "/img/timeline/welcometocat.jpg"
+  #   date: "November 1989"
+  #   description: "Hello world!"
 
 # First image of the Timeline
 
