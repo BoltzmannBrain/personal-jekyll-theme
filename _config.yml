@@ -43,7 +43,7 @@ favicon: "/img/level_up.ico"
 black-favicon: False
 
 # background-img: "../img/intro-bg.png"
-background-img: "../img/tedxcornelltech_02_small.jpg"
+background-img: "../img/tedxcornelltech_02.jpg"
 
 ##############################
 # Dynamic Text on the Header #
