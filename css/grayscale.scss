@@ -164,6 +164,9 @@ a {
     color: $intro-text-color;
     {% if site.background-img %}
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
     {% endif %}
     background-color: $header-background-color;
     -webkit-background-size: cover;
