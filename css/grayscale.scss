@@ -163,7 +163,7 @@ a {
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat bottom center scroll; max-width: 100%; height: auto;
+    background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
     background-color: $header-background-color;
     -webkit-background-size: cover;
@@ -171,6 +171,8 @@ a {
     background-size: cover;
     -o-background-size: cover;
     .intro-body {
+        max-width: 100%; 
+        height: auto;
         display: table-cell;
         vertical-align: middle;
         .brand-heading {
