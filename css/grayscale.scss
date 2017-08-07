@@ -168,7 +168,7 @@ a {
     background-color: $header-background-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    background-size: 100%;
     -o-background-size: cover;
     .intro-body {
         display: table-cell;
