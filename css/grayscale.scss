@@ -171,8 +171,6 @@ a {
     background-size: cover;
     -o-background-size: cover;
     .intro-body {
-        max-width: 100%; 
-        height: auto;
         display: table-cell;
         vertical-align: middle;
         .brand-heading {
@@ -186,7 +184,8 @@ a {
         }
     }
     @media(min-width:768px) {
-        height: 100%;
+        max-width: 100%; 
+        height: auto;
         padding: 0;
         .intro-body {
             .brand-heading {
