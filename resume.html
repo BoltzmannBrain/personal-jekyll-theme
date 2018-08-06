@@ -685,7 +685,7 @@ ul.courses li:hover {
 	<body>
 		<div id="resume">
 				<header id="header" class="clear">
-						<img class="picture" src="img/alex.jpg" alt="Alexander Lavin"/>
+						<img class="picture" src="img/alex_lavin_copy.jpg" alt="Alexander Lavin"/>
 						<div class="middle">
 							<h1 class="name">Alexander Lavin</h1>
 							<h2 class="label">AI, ML, SW</h2>
@@ -758,7 +758,7 @@ ul.courses li:hover {
                                             <span class="fa fa-caret-down"></span>
                                     </span>
                                     <div class="position">
-                                        Senior Research Engineer
+                                        Research Architect
                                     </div>
                                     <div class="company">
                                         Vicarious AI
@@ -778,11 +778,11 @@ ul.courses li:hover {
                                         <a href="vicarious.com" target="_blank">vicarious.com</a>
                                     </span>
                                     <div class="summary">
-                                        <p>We're building human-level AI. My focuses:
+                                        <p>We're building general artificial intelligence. My focuses:
                                         </p>
                                     </div>
                                     <ul class="highlights">
-                                            <li>Developing robotic motion planning and trajectory optimzation algorithms based on Gaussian processes</li>
+                                            <li>Project lead for developing robotic motion planning and trajectory optimzation algorithms based on Gaussian processes</li>
                                             <li>Building probabilistic graphical models (PGM) for robotic vision, with inspiration from primate visual cortex</li>
                                             <li>Lead software architect for mono-repo of Python, C++, and ROS code</li>
                                     </ul>
@@ -1047,9 +1047,10 @@ ul.courses li:hover {
               <ul class="keywords">
                 <li>Python</li>
                 <li>C++</li>
+                <li>Julia</li>
                 <li>Java</li>
                 <li>MATLAB</li>
-                <li>Golang</li>
+                <li>Go</li>
                 <li>Android</li>
                 <li>R</li>
               </ul>
@@ -1073,6 +1074,10 @@ ul.courses li:hover {
                 <li>nltk</li>
                 <li>opencv</li>
                 <li>edward</li>
+                <li>pyro</li>
+                <li>eigen</li>
+                <li>ceras</li>
+                <li>gtsam</li>
               </ul>
             </div>
 
@@ -1093,7 +1098,7 @@ ul.courses li:hover {
 
             <div class="item">
               <h3 class="name">
-                Misc. SW
+                SW, etc.
               </h3>
 <!--               <div class="level intermediate">
                 <em>Intermediate</em>
@@ -1110,8 +1115,11 @@ ul.courses li:hover {
                 <li>html</li>
                 <li>raspberry Pi</li>
                 <li>ros</li>
+                <li>robotics simulators/engines</li>
               </ul>
             </div>
+
+
 
           </section>
         </section>
@@ -1382,18 +1390,84 @@ ul.courses li:hover {
                 </span>
                 <div class="header-left">
                     <span class="pub_name">
-                        "Probabilistic Programming Optimized for Gaussian Processes in Robotics"
+                        <span class="website">
+                            <a href="https://drive.google.com/file/d/1QRtF-dcU-Ou09X2DokqNcbtUHXK9c8HC/view?usp=sharing" target="_blank">"Probabilistic programming for data-efficient robotics"</a>
+                        </span>
                     </span>
                 </div>
                   <span class="date">
-                    (in-progress)
+                    (in-press)
                   </span>
               </header>
                 <div class="item display none" style="opacity:1">
                 <div class="summary">
-                  <p>A probabilistic DSL with design motivations that behoove real-world robotics: focus on Gaussian process-based models for data efficiency and uncertainty quantification, composable inference constructs, parallelized C++ implementation.</p>
+                  <!-- 
+                  <p>A probabilistic DSL with design motivations that behoove real-world, data-efficient robotics: composobale inference strategies, modular and structured optimization, and explicit uncertainty quantification.</p>
+                   -->
+                  <p>Abstract: Many probabilistic programming languages decouple modeling
+and inference: the user specifies a model, and inference is
+delegated to an inference engine based on black-box MCMC
+or variational techniques. This approach has two limitations
+that inhibit its use in robotics. First, many robotics applications
+require real-time performance. Inference algorithms
+thus need to be optimized for each application. Second, many
+applications of robotics learning require combining probabilistic
+inference with optimization, in settings where evaluating
+the objective function requires costly real-world interactions.
+Modeling and inference must thus be integrated
+with Bayesian optimization techniques. We propose a design
+for a domain-specific probabilistic programming language
+for data-efficient robotics. The design prominently features
+(i) programmable inference, (ii) modular and structured optimization,
+and (iii) explicit uncertainty quantification. We
+argue that such a DSL could be useful for tasks such as
+Bayesian optimization for grasping, and learning policies for
+control.</p>
                 </div>
               </div>
+
+              <header class="clear">
+                <span class="space-left">
+                  <span class="fa fa-caret-right"></span>
+                </span>
+                <div class="header-left">
+                    <span class="pub_name">
+                        <span class="website">
+                            <a href="https://arxiv.org/abs/1808.01058" target="_blank">"Cortical Microcircuits from a Generative Vision Model"</a>
+                        </span>
+                    </span>
+                </div>
+                  <span class="date">
+                    (in-press)
+                  </span>
+              </header>
+                <div class="item display none" style="opacity:1">
+                <div class="summary">
+                  <p>Abstract: Understanding the information processing roles of cortical circuits is an outstanding problem in neuroscience and artificial intelligence. The theoretical setting of Bayesian inference has been suggested as a framework for understanding cortical computation. Based on a recently published generative model for visual inference (George et al., 2017), we derive a family of anatomically instantiated and functional cortical circuit models. In contrast to simplistic models of Bayesian inference, the underlying generative model's representational choices are validated with real-world tasks that required efficient inference and strong generalization. The cortical circuit model is derived by systematically comparing the computational requirements of this model with known anatomical constraints. The derived model suggests precise functional roles for the feedforward, feedback and lateral connections observed in different laminae and columns, and assigns a computational role for the path through the thalamus.</p>
+                </div>
+              </div>
+
+              <header class="clear">
+                <span class="space-left">
+                  <span class="fa fa-caret-right"></span>
+                </span>
+                <div class="header-left">
+                    <span class="pub_name">
+                        <span class="website">
+                            <a href="https://www.biorxiv.org/content/early/2018/07/30/380048" target="_blank">"Explaining Visual Cortex Phenomena using Recursive Cortical Network"</a>
+                        </span>
+                    </span>
+                </div>
+                  <span class="date">
+                    (in-press)
+                  </span>
+              </header>
+                <div class="item display none" style="opacity:1">
+                <div class="summary">
+                  <p>Abstract: The connectivity and information pathways of visual cortex are well studied, as are observed physiological phenomena, yet a cohesive model for explaining visual cortex processes remains an open problem. For a comprehensive understanding, we need to build models of the visual cortex that are capable of robust real-world performance, while also being able to explain psychophysical and physiological observations. To this end, we demonstrate how the Recursive Cortical Network (George et al., 2017) can be used as a computational model to reproduce and explain subjective contours, neon color spreading, occlusion vs. deletion, and the border-ownership competition phenomena observed in the visual cortex.</p>
+                </div>
+              </div>
+
 
               <header class="clear">
                 <span class="space-left">
