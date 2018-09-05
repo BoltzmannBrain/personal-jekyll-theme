@@ -101,6 +101,7 @@ twitter-share: True
 linkedin-share: True
 reddit-share: True
 google-plus-share: True
+google-scholar-share: True
 tumblr-share: True
 pinterest-share: False
 pocket-share: False
