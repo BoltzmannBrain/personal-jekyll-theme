@@ -2,7 +2,7 @@
 layout: post
 section-type: post
 title: New Workshop Papers!
-category: AGI
+category: Machine Learning
 tags: [ 'AI' ]
 ---
 
