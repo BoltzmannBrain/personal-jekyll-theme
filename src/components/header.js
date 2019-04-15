@@ -6,7 +6,7 @@ import '../styles/header.styl'
 const Header = () => (
   <div className='header'>
     <div className='logo'></div>
-    <h1>Laura Del Beccaro</h1>
+    <h1>Alexander Lavin</h1>
     <SocialLinks />
   </div>
 )

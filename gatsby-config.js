@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Alexander Lavin',
-    description: 'AI & SW',
+    description: 'Hello world!',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -18,7 +18,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `karla\:400,500`,
+          `montserrat\:400,500`,
+          `source-code-pro\:400,500`,
         ],
       },
     },
